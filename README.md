@@ -2,6 +2,8 @@
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.19-3.
 
+<a href="https://david-dm.org/ramiz4/angular2-twitter-bootstrap" target="_blank"><img src="https://david-dm.org/ramiz4/angular2-twitter-bootstrap.svg" alt="Dependency Status"></a>
+
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
