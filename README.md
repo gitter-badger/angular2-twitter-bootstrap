@@ -1,5 +1,7 @@
 # Angular2 Twitter bootstrap - Sticky footer template
 
+[![Join the chat at https://gitter.im/angular2-twitter-bootstrap/Lobby](https://badges.gitter.im/angular2-twitter-bootstrap/Lobby.svg)](https://gitter.im/angular2-twitter-bootstrap/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.19-3.
 
 <a href="https://david-dm.org/ramiz4/angular2-twitter-bootstrap" target="_blank"><img src="https://david-dm.org/ramiz4/angular2-twitter-bootstrap.svg" alt="Dependency Status"></a>
