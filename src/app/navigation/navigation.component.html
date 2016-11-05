@@ -1,0 +1,20 @@
+<!-- main menu items -->
+<li class="nav-item" routerLinkActive="active" *ngFor="let mainMenuItem of mainMenuItems">
+  <a class="nav-link" routerLink="{{mainMenuItem.url}}">
+    {{mainMenuItem.name}}
+  </a>
+</li>
+
+<!-- sub menu items -->
+<li class="nav-item" *ngFor="let dropdownMenuItem of dropdownMenuItems" dropdown (onToggle)="toggled($event)">
+  <a id="{{dropdownMenuItem.name}}" class="nav-link" href="" dropdownToggle>
+    {{dropdownMenuItem.name}} <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" dropdownMenu>
+    <li class="nav-item" routerLinkActive="active" *ngFor="let subMenuItem of dropdownMenuItem.subMenuItems">
+      <a class="nav-link" routerLink="{{subMenuItem.url}}">
+        {{subMenuItem.name}}
+      </a>
+    </li>
+  </ul>
+</li>
